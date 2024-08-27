@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Fixed Collapsing Navbar in Bootstrap 5</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="css/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand bg-white"
+            href="https://www.geeksforgeeks.org/">
+                <img src=
+"img/Landing/Logo.png"
+                    class="rounded float-start">
+            </a>
+
+            <!-- Toggler button for small screens -->
+            <button class="navbar-toggler"
+                    type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSdCt"
+                    aria-controls="navbarSdCt"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse"
+                id="navbarSdCt">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-2">
+                        <a class="nav-link active "
+                        aria-current="page" href="#">
+                        Used Cars
+                        </a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link " href="#">
+                            Auctions
+                        </a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link " href="#">
+                            New Cars
+                        </a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link " href="#">
+                            Sell Cars
+                        </a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link " href="#">
+                            Local Dealers
+                        </a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link " href="#">
+                            Support
+                        </a>
+                    </li>
+                    <li class="nav-item px-2" id="signup" >
+                        <a class="nav-link " href="#">
+                            <span><img src="img/Landing/person-fill.svg" alt=""></span><span style="color:  #9A9EA7
+                            ">Sign Up</span> 
+                        </a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <header>
+        
+    </header>
+</body>
+
+</html>
