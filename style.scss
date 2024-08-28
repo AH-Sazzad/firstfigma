@@ -8,11 +8,36 @@
 
 // Then add additional custom code here
 
-
+body{
+    font-family: "Poppins", system-ui;
+  
+}
 .nav-item{
     font-family: "Poppins", system-ui;
     font-weight: 600;
     font-size: .9rem;
     color: #0D0A19;
     
+}
+.main{
+    background-image: url(img/Landing/bg.png);
+    background-repeat: no-repeat;
+   width: 320;
+   height: 83vh;
+}
+.main .container h2{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    color: #fff;
+    text-align: center;
+    padding-top: 15%;
+}
+.main .container h5{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+    text-align: center;
+    padding-top: 1%;
 }
